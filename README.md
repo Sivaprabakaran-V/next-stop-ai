@@ -20,7 +20,7 @@ This project demonstrates how to build a **ReAct (Reasoning + Acting) Agent** us
    ```bash
    git clone https://github.com/your-username/react-agent.git
    cd react-agent
-2. ** Project Structure **
+2. **Project Structure**
    .
 ├── main.py               # Entry point
 ├── schemas.py            # Pydantic schema (AgentResponse)
@@ -29,11 +29,11 @@ This project demonstrates how to build a **ReAct (Reasoning + Acting) Agent** us
 ├── .env.example          # Sample env vars (not committed)
 └── README.md             # Documentation
 
-3. ** environment variables**
+3. **environment variables**
    GOOGLE_API_KEY=your_google_api_key
    TAVILY_API_KEY=your_tavily_api_key
 
-4. ** Requirement**
+4. **Requirement**
    langchain
    langchain-google-genai
    langchain-tavily
